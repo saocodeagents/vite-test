@@ -1,0 +1,25 @@
+.home {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.headline,
+.subhead {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.headline {
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.2;
+}
+
+.subhead {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  opacity: 0.85;
+}
